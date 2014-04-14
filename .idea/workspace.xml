@@ -70,7 +70,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="62" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.5543478" vertical-offset="238" max-vertical-offset="1768">
+            <state line="33" column="65" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.58514494" vertical-offset="238" max-vertical-offset="1768">
               <folding />
             </state>
           </provider>
@@ -422,7 +422,7 @@
       <created>1397475709062</created>
       <updated>1397475709062</updated>
       <workItem from="1397475710640" duration="2931000" />
-      <workItem from="1397514455578" duration="2976000" />
+      <workItem from="1397514455578" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397476249171</created>
@@ -460,11 +460,15 @@
       <created>1397518931296</created>
       <updated>1397518931296</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update&#10;">
+      <created>1397518967718</created>
+      <updated>1397518967718</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5907000" />
+    <option name="totallyTimeSpent" value="6123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
@@ -522,7 +526,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="62" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.5543478" vertical-offset="238" max-vertical-offset="1768">
+        <state line="33" column="65" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.58514494" vertical-offset="238" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
