@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="" />
+    <list default="true" id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AppMap.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +70,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.21996303" vertical-offset="0" max-vertical-offset="541">
+            <state line="7" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.22077923" vertical-offset="0" max-vertical-offset="539">
               <folding />
             </state>
           </provider>
@@ -79,6 +82,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -94,7 +100,7 @@
     <option name="width" value="1374" />
     <option name="height" value="742" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -412,12 +418,12 @@
       <changelist id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="" />
       <created>1397475709062</created>
       <updated>1397475709062</updated>
-      <workItem from="1397475710640" duration="422000" />
+      <workItem from="1397475710640" duration="516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422000" />
+    <option name="totallyTimeSpent" value="516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
@@ -469,7 +475,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.21996303" vertical-offset="0" max-vertical-offset="541">
+        <state line="7" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="0.22077923" vertical-offset="0" max-vertical-offset="539">
           <folding />
         </state>
       </provider>
