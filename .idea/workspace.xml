@@ -417,7 +417,7 @@
       <changelist id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="" />
       <created>1397475709062</created>
       <updated>1397475709062</updated>
-      <workItem from="1397475710640" duration="1334000" />
+      <workItem from="1397475710640" duration="1358000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397476249171</created>
@@ -427,11 +427,15 @@
       <created>1397477007937</created>
       <updated>1397477007937</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update index&#10;">
+      <created>1397477061640</created>
+      <updated>1397477061640</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1334000" />
+    <option name="totallyTimeSpent" value="1358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
