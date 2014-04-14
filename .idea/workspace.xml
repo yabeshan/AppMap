@@ -2,7 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="public&#10;">
-      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\css\index.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\js\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\android\icon-36-ldpi.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\android\icon-48-mdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\android\icon-72-hdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\android\icon-96-xhdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\bada-wac\icon-48-type5.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\bada-wac\icon-50-type3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\bada-wac\icon-80-type4.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\bada\icon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\blackberry\icon-80.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\ios\icon-57-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\ios\icon-57.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\ios\icon-72-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\ios\icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\tizen\icon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\webos\icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\windows-phone\icon-173-tile.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\windows-phone\icon-48.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\icon\windows-phone\icon-62-tile.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\android\screen-hdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\android\screen-hdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\android\screen-ldpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\android\screen-ldpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\android\screen-mdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\android\screen-mdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\android\screen-xhdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\android\screen-xhdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\bada-wac\screen-type3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\bada-wac\screen-type4.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\bada-wac\screen-type5.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\bada\screen-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\blackberry\screen-225.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-ipad-landscape-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-ipad-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-ipad-portrait-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-ipad-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-iphone-landscape-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-iphone-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-iphone-portrait-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-iphone-portrait-568h-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\ios\screen-iphone-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\tizen\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\webos\screen-64.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\res\screen\windows-phone\screen-portrait.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\spec.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\spec\helper.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\spec\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\spec\lib\jasmine-1.2.0\MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\spec\lib\jasmine-1.2.0\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\spec\lib\jasmine-1.2.0\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\temp\cyberiansoft\AppMap\src\www\spec\lib\jasmine-1.2.0\jasmine.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AppMap.iws" />
@@ -66,26 +121,7 @@
     <favorites_list name="AppMap" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="21" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.6780303" vertical-offset="288" max-vertical-offset="816">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/www/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="76" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -161,10 +197,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AppMap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -434,7 +466,7 @@
       <created>1397475709062</created>
       <updated>1397475709062</updated>
       <workItem from="1397475710640" duration="2931000" />
-      <workItem from="1397514455578" duration="1328000" />
+      <workItem from="1397514455578" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397476249171</created>
@@ -464,11 +496,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4259000" />
+    <option name="totallyTimeSpent" value="4820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -488,7 +520,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
