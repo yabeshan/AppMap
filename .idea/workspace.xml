@@ -136,7 +136,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="8" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.63893807" vertical-offset="693" max-vertical-offset="1955">
+            <state line="52" column="18" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.3380531" vertical-offset="693" max-vertical-offset="1904">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -497,7 +497,7 @@
       <updated>1397475709062</updated>
       <workItem from="1397475710640" duration="2931000" />
       <workItem from="1397514455578" duration="3828000" />
-      <workItem from="1397641873281" duration="9579000" />
+      <workItem from="1397641873281" duration="9694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397476249171</created>
@@ -555,11 +555,15 @@
       <created>1397655852468</created>
       <updated>1397655852468</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update&#10;">
+      <created>1397656046734</created>
+      <updated>1397656046734</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16338000" />
+    <option name="totallyTimeSpent" value="16453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
@@ -678,7 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="8" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.63893807" vertical-offset="693" max-vertical-offset="1955">
+        <state line="52" column="18" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.3380531" vertical-offset="693" max-vertical-offset="1904">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

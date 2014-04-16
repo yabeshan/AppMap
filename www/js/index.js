@@ -43,17 +43,14 @@ var app = {
     initGoogle: function() {
         document.getElementById("map_canvas").innerHTML = "Loading";
 
-        alert("111" + google.maps );
-        alert("222" + google.maps.LatLng(43.069452, -89.411373));
-        alert("333" + google.maps.MapTypeId );
-        alert("444" + google.maps.MapTypeId.ROADMAP );
+
 
 //        var mapOptions = {
 //            center: new google.maps.LatLng(43.069452, -89.411373),
 //            zoom: 8,
 //            mapTypeId: google.maps.MapTypeId.ROADMAP
 //        };
-
+        alert("000");
         var map = new google.maps.Map(document.getElementById("map_canvas"),
             {
                 center: new google.maps.LatLng(43.069452, -89.411373),
@@ -61,7 +58,7 @@ var app = {
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             }
         );
-
+        alert("111");
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(43.069452, -89.411373),
             map: map,
