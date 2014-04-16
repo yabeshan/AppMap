@@ -42,7 +42,7 @@ var app = {
 
     initGoogle: function() {
         document.getElementById("map_canvas").innerHTML = "Loading";
-        alert("111" + google);
+        alert("111" + google.maps.LatLng(43.069452, -89.411373) +"    "+ google.maps.MapTypeId.ROADMAP );
 
         var mapOptions = {
             center: new google.maps.LatLng(43.069452, -89.411373),
