@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%; margin: 0; padding: 0 }
+        #map_canvas { height: 100% }
+
+        .button {position:absolute; width: 30%; height: 40px; cursor:pointer}
+        #google {  background-color: rgba(255,100,100,.6);  left: 3%;}
+        #bing {    background-color: rgba(100,255,100,.6);  left: 33%;}
+        #leaflet { background-color: rgba(100,100,255,.6);  left: 63%;}
+
+    </style>
+
+    <script type="text/javascript"
+            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAfTNWFYhoCfxMH3BbpYbQYsqdWXYW-yXc&sensor=true">
+    </script>
+    <script type="text/javascript"
+            src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1">
+    </script>
+    <script type="text/javascript"
+            src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js">
+    </script>
+
+    <script type="text/javascript">
+        function initGoogle() {
+            document.getElementById("map_canvas").innerHTML = "Loading";
+            var mapOptions = {
+                center: new google.maps.LatLng(43.069452, -89.411373),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("map_canvas"),
+                    mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(43.069452, -89.411373),
+                map: map,
+                title: "This is a marker!",
+                animation: google.maps.Animation.DROP
+            });
+        }
+
+        function initBing() {
+            document.getElementById("map_canvas").innerHTML = "Loading";
+            var mapOptions = {
+                credentials: "Au7tvmCVeBN3C1MvpCr-0yACFMH520qLiN7hinvKBKLCgom_kEwqZWWgO9dAtcUv",
+                mapTypeId: Microsoft.Maps.MapTypeId.road,
+                center: new Microsoft.Maps.Location(43.069452, -89.411373),
+                zoom: 11
+            };
+
+            var map = new Microsoft.Maps.Map(document.getElementById("map_canvas"), mapOptions);
+            var loc = new Microsoft.Maps.Location(43.069452, -89.411373);
+
+            var pin = new Microsoft.Maps.Pushpin(loc, {text: '1'});
+            map.entities.push(pin);
+        }
+
+        var mapLeaflet = null;
+        function initLeaflet() {
+            document.getElementById("map_canvas").innerHTML = "Loading";
+
+            if (mapLeaflet == null) {
+                mapLeaflet = new L.Map('map_canvas');
+
+                var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+                var osmAttrib = 'Map data © OpenStreetMap contributors';
+                var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });
+
+                mapLeaflet.setView(new L.LatLng(43.069452, -89.411373), 11);
+                mapLeaflet.addLayer(osm);
+
+                L.marker([43.069452, -89.411373]).addTo(mapLeaflet);
+            }
+        }
+
+        function initialize() {
+            document.getElementById('google').onclick=function(){
+                initGoogle();
+            }
+            document.getElementById('bing').onclick=function(){
+                initBing();
+            }
+            document.getElementById('leaflet').onclick=function(){
+                initLeaflet();
+            }
+            initGoogle();
+        }
+    </script>
+</head>
+<body onload="initialize()">
+<div id="map_canvas" style="width:100%; height:100%"></div>
+
+<div style="position: absolute; left:0px; bottom: 0px; height: 40px; width: 100%;text-align: center; font-size: 20px">
+    <div id="google" class="button">google</div>
+    <div id="bing" class="button">bing</div>
+    <div id="leaflet" class="button">leaflet</div>
+</div>
+
+</body>
+</html>

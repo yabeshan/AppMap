@@ -17,33 +17,78 @@
  * under the License.
  */
 var app = {
-    // Application Constructor
+
     initialize: function() {
         this.bindEvents();
     },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
+
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+//        setTimeout(this.onDeviceReady, 1000);
     },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicity call 'app.receivedEvent(...);'
+
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+        document.getElementById('google').onclick=function(){
+            app.initGoogle();
+        };
+        document.getElementById('bing').onclick=function(){
+            app.initBing();
+        };
+        document.getElementById('leaflet').onclick=function(){
+            app.initLeaflet();
+        };
+        app.initGoogle();
     },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+    initGoogle: function() {
+        document.getElementById("map_canvas").innerHTML = "Loading";
+        var mapOptions = {
+            center: new google.maps.LatLng(43.069452, -89.411373),
+            zoom: 8,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
 
-        console.log('Received Event: ' + id);
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(43.069452, -89.411373),
+            map: map,
+            title: "This is a marker!",
+            animation: google.maps.Animation.DROP
+        });
+    },
+
+    initBing: function() {
+        document.getElementById("map_canvas").innerHTML = "Loading";
+        var mapOptions = {
+            credentials: "Au7tvmCVeBN3C1MvpCr-0yACFMH520qLiN7hinvKBKLCgom_kEwqZWWgO9dAtcUv",
+            mapTypeId: Microsoft.Maps.MapTypeId.road,
+            center: new Microsoft.Maps.Location(43.069452, -89.411373),
+            zoom: 11
+        };
+
+        var map = new Microsoft.Maps.Map(document.getElementById("map_canvas"), mapOptions);
+        var loc = new Microsoft.Maps.Location(43.069452, -89.411373);
+
+        var pin = new Microsoft.Maps.Pushpin(loc, {text: '1'});
+        map.entities.push(pin);
+    },
+
+    mapLeaflet:null,
+    initLeaflet: function () {
+        document.getElementById("map_canvas").innerHTML = "Loading";
+
+        if (app.mapLeaflet == null) {
+            app.mapLeaflet = new L.Map('map_canvas');
+
+            var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+            var osmAttrib = 'Map data © OpenStreetMap contributors';
+            var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });
+
+            app.mapLeaflet.setView(new L.LatLng(43.069452, -89.411373), 11);
+            app.mapLeaflet.addLayer(osm);
+
+            L.marker([43.069452, -89.411373]).addTo(app.mapLeaflet);
+        }
     }
 };

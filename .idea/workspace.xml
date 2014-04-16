@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="">
+    <list default="true" id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="update&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/map-bing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/map-google.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/map-leaflet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/maps.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AppMap.iws" />
@@ -67,10 +73,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="65" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.58514494" vertical-offset="238" max-vertical-offset="1768">
+            <state line="5" column="31" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map-google.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/map-google.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="34" selection-start="300" selection-end="300" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="680">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map-bing.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/map-bing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="270" selection-end="403" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="680">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map-leaflet.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/map-leaflet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="61" selection-start="523" selection-end="961" vertical-scroll-proportion="-11.576923" vertical-offset="124" max-vertical-offset="663">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/maps.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="8" selection-start="1115" selection-end="3171" vertical-scroll-proportion="28.961538" vertical-offset="1246" max-vertical-offset="1887">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="9" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.6121673" vertical-offset="698" max-vertical-offset="1241">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="10" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -92,7 +164,13 @@
         <option value="$PROJECT_DIR$/src/index2.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/www/js/index.js" />
+        <option value="$PROJECT_DIR$/www/map-bing.html" />
+        <option value="$PROJECT_DIR$/www/map-google.html" />
+        <option value="$PROJECT_DIR$/www/map-leaflet.html" />
+        <option value="$PROJECT_DIR$/www/maps.html" />
         <option value="$PROJECT_DIR$/www/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -422,7 +500,8 @@
       <created>1397475709062</created>
       <updated>1397475709062</updated>
       <workItem from="1397475710640" duration="2931000" />
-      <workItem from="1397514455578" duration="3192000" />
+      <workItem from="1397514455578" duration="3828000" />
+      <workItem from="1397641873281" duration="8061000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397476249171</created>
@@ -464,11 +543,15 @@
       <created>1397518967718</created>
       <updated>1397518967718</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update&#10;">
+      <created>1397519186609</created>
+      <updated>1397519186609</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6123000" />
+    <option name="totallyTimeSpent" value="14820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
@@ -487,7 +570,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -499,6 +581,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -526,8 +609,69 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="65" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.58514494" vertical-offset="238" max-vertical-offset="1768">
+        <state line="33" column="65" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/map-google.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="34" selection-start="300" selection-end="300" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="680">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/map-bing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="270" selection-end="403" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="680">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/map-leaflet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="61" selection-start="523" selection-end="961" vertical-scroll-proportion="-11.576923" vertical-offset="124" max-vertical-offset="663">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="31" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/maps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="8" selection-start="1115" selection-end="3171" vertical-scroll-proportion="28.961538" vertical-offset="1246" max-vertical-offset="1887">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="10" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="9" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.6121673" vertical-offset="698" max-vertical-offset="1241">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
