@@ -48,14 +48,19 @@ var app = {
         alert("333" + google.maps.MapTypeId );
         alert("444" + google.maps.MapTypeId.ROADMAP );
 
-        var mapOptions = {
-            center: new google.maps.LatLng(43.069452, -89.411373),
-            zoom: 8,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
+//        var mapOptions = {
+//            center: new google.maps.LatLng(43.069452, -89.411373),
+//            zoom: 8,
+//            mapTypeId: google.maps.MapTypeId.ROADMAP
+//        };
 
         var map = new google.maps.Map(document.getElementById("map_canvas"),
-            mapOptions);
+            {
+                center: new google.maps.LatLng(43.069452, -89.411373),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+        );
 
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(43.069452, -89.411373),
