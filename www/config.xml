@@ -19,6 +19,9 @@
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
+    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    <gap:plugin name="org.apache.cordova.core.geolocation" />
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -85,7 +88,7 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
+    <access origin="*"/> <!-- allow local pages -->
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/

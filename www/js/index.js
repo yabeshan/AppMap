@@ -18,36 +18,30 @@
  */
 var app = {
 
+    posX:46.069452,
+    posY:-89.411373,
+
     initialize: function() {
         this.bindEvents();
     },
 
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        setTimeout(this.onDeviceReady, 10000);
+        setTimeout(this.onDeviceReady, 1000);
     },
 
     initGoogle: function() {
         document.getElementById("map_canvas").innerHTML = "Loading";
-
-
-
-//        var mapOptions = {
-//            center: new google.maps.LatLng(43.069452, -89.411373),
-//            zoom: 8,
-//            mapTypeId: google.maps.MapTypeId.ROADMAP
-//        };
-        alert("000");
         var map = new google.maps.Map(document.getElementById("map_canvas"),
             {
-                center: new google.maps.LatLng(43.069452, -89.411373),
+                center: new google.maps.LatLng( app.posX, app.posY ),
                 zoom: 8,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             }
         );
-        alert("111");
+
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(43.069452, -89.411373),
+            position: new google.maps.LatLng( app.posX, app.posY ),
             map: map,
             title: "This is a marker!",
             animation: google.maps.Animation.DROP
@@ -56,17 +50,16 @@ var app = {
 
     initBing: function() {
         document.getElementById("map_canvas").innerHTML = "Loading";
-        alert("222" + Microsoft);
 
         var mapOptions = {
             credentials: "Au7tvmCVeBN3C1MvpCr-0yACFMH520qLiN7hinvKBKLCgom_kEwqZWWgO9dAtcUv",
             mapTypeId: Microsoft.Maps.MapTypeId.road,
-            center: new Microsoft.Maps.Location(43.069452, -89.411373),
+            center: new Microsoft.Maps.Location( app.posX, app.posY ),
             zoom: 11
         };
 
         var map = new Microsoft.Maps.Map(document.getElementById("map_canvas"), mapOptions);
-        var loc = new Microsoft.Maps.Location(43.069452, -89.411373);
+        var loc = new Microsoft.Maps.Location( app.posX, app.posY );
 
         var pin = new Microsoft.Maps.Pushpin(loc, {text: '1'});
         map.entities.push(pin);
@@ -75,7 +68,6 @@ var app = {
     mapLeaflet:null,
     initLeaflet: function () {
         document.getElementById("map_canvas").innerHTML = "Loading";
-        alert("333"+L);
 
         if (app.mapLeaflet == null) {
             app.mapLeaflet = new L.Map('map_canvas');
@@ -84,25 +76,25 @@ var app = {
             var osmAttrib = 'Map data © OpenStreetMap contributors';
             var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });
 
-            app.mapLeaflet.setView(new L.LatLng(43.069452, -89.411373), 11);
+            app.mapLeaflet.setView(new L.LatLng( app.posX, app.posY ), 11);
             app.mapLeaflet.addLayer(osm);
 
-            L.marker([43.069452, -89.411373]).addTo(app.mapLeaflet);
+            L.marker([ app.posX, app.posY]).addTo(app.mapLeaflet);
         }
     },
 
 
     onDeviceReady: function() {
-//        document.getElementById('google').onclick=function(){
-//            app.initGoogle();
-//        };
-//        document.getElementById('bing').onclick=function(){
-//            app.initBing();
-//        };
-//        document.getElementById('leaflet').onclick=function(){
-//            app.initLeaflet();
-//        };
-        app.initBing();
+        document.getElementById('google').onclick=function(){
+            app.initGoogle();
+        };
+        document.getElementById('bing').onclick=function(){
+            app.initBing();
+        };
+        document.getElementById('leaflet').onclick=function(){
+            app.initLeaflet();
+        };
+//        app.initGoogle();
     }
 
 };
