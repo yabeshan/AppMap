@@ -24,7 +24,7 @@ var app = {
 
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-//        setTimeout(this.onDeviceReady, 1000);
+        setTimeout(this.onDeviceReady, 10000);
     },
 
     onDeviceReady: function() {
@@ -42,20 +42,23 @@ var app = {
 
     initGoogle: function() {
         document.getElementById("map_canvas").innerHTML = "Loading";
+        alert("111");
         var mapOptions = {
             center: new google.maps.LatLng(43.069452, -89.411373),
             zoom: 8,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
+        alert("222");
         var map = new google.maps.Map(document.getElementById("map_canvas"),
             mapOptions);
-
+        alert("333");
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(43.069452, -89.411373),
             map: map,
             title: "This is a marker!",
             animation: google.maps.Animation.DROP
         });
+        alert("444");
     },
 
     initBing: function() {

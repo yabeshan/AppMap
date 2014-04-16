@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="update&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/map-bing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/map-google.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/map-leaflet.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/maps.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AppMap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,7 +112,7 @@
       <file leaf-file-name="maps.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/maps.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="8" selection-start="1115" selection-end="3171" vertical-scroll-proportion="28.961538" vertical-offset="1246" max-vertical-offset="1887">
+            <state line="95" column="5" selection-start="3596" selection-end="3618" vertical-scroll-proportion="-14.192307" vertical-offset="1246" max-vertical-offset="1887">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -127,22 +121,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="9" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.6121673" vertical-offset="698" max-vertical-offset="1241">
+            <state line="56" column="0" selection-start="2427" selection-end="2427" vertical-scroll-proportion="-9.769231" vertical-offset="698" max-vertical-offset="1275">
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="10" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+            <state line="26" column="41" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.27079645" vertical-offset="0" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -169,8 +163,8 @@
         <option value="$PROJECT_DIR$/www/map-leaflet.html" />
         <option value="$PROJECT_DIR$/www/maps.html" />
         <option value="$PROJECT_DIR$/www/config.xml" />
-        <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
       </list>
     </option>
   </component>
@@ -501,7 +495,7 @@
       <updated>1397475709062</updated>
       <workItem from="1397475710640" duration="2931000" />
       <workItem from="1397514455578" duration="3828000" />
-      <workItem from="1397641873281" duration="8061000" />
+      <workItem from="1397641873281" duration="8654000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397476249171</created>
@@ -551,7 +545,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14820000" />
+    <option name="totallyTimeSpent" value="15413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
@@ -650,9 +644,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/maps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="8" selection-start="1115" selection-end="3171" vertical-scroll-proportion="28.961538" vertical-offset="1246" max-vertical-offset="1887">
+        <state line="95" column="5" selection-start="3596" selection-end="3618" vertical-scroll-proportion="-14.192307" vertical-offset="1246" max-vertical-offset="1887">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="2427" selection-end="2427" vertical-scroll-proportion="-9.769231" vertical-offset="698" max-vertical-offset="1275">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -660,18 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="10" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+        <state line="26" column="41" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.27079645" vertical-offset="0" max-vertical-offset="1462">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="9" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.6121673" vertical-offset="698" max-vertical-offset="1241">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
