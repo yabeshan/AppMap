@@ -42,27 +42,29 @@ var app = {
 
     initGoogle: function() {
         document.getElementById("map_canvas").innerHTML = "Loading";
-        alert("111");
+        alert("111" + google);
+
         var mapOptions = {
             center: new google.maps.LatLng(43.069452, -89.411373),
             zoom: 8,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
-        alert("222");
+
         var map = new google.maps.Map(document.getElementById("map_canvas"),
             mapOptions);
-        alert("333");
+
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(43.069452, -89.411373),
             map: map,
             title: "This is a marker!",
             animation: google.maps.Animation.DROP
         });
-        alert("444");
     },
 
     initBing: function() {
         document.getElementById("map_canvas").innerHTML = "Loading";
+        alert("222" + Microsoft);
+
         var mapOptions = {
             credentials: "Au7tvmCVeBN3C1MvpCr-0yACFMH520qLiN7hinvKBKLCgom_kEwqZWWgO9dAtcUv",
             mapTypeId: Microsoft.Maps.MapTypeId.road,
@@ -80,6 +82,7 @@ var app = {
     mapLeaflet:null,
     initLeaflet: function () {
         document.getElementById("map_canvas").innerHTML = "Loading";
+        alert("333"+L);
 
         if (app.mapLeaflet == null) {
             app.mapLeaflet = new L.Map('map_canvas');
