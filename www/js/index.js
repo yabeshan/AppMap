@@ -27,19 +27,6 @@ var app = {
         setTimeout(this.onDeviceReady, 10000);
     },
 
-    onDeviceReady: function() {
-        document.getElementById('google').onclick=function(){
-            app.initGoogle();
-        };
-        document.getElementById('bing').onclick=function(){
-            app.initBing();
-        };
-        document.getElementById('leaflet').onclick=function(){
-            app.initLeaflet();
-        };
-        app.initGoogle();
-    },
-
     initGoogle: function() {
         document.getElementById("map_canvas").innerHTML = "Loading";
 
@@ -102,5 +89,20 @@ var app = {
 
             L.marker([43.069452, -89.411373]).addTo(app.mapLeaflet);
         }
-    }
+    },
+
+
+    onDeviceReady: function() {
+        document.getElementById('google').onclick=function(){
+            app.initGoogle();
+        };
+        document.getElementById('bing').onclick=function(){
+            app.initBing();
+        };
+        document.getElementById('leaflet').onclick=function(){
+            app.initLeaflet();
+        };
+        app.initBing();
+    },
+
 };
