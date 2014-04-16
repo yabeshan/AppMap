@@ -93,16 +93,16 @@ var app = {
 
 
     onDeviceReady: function() {
-        document.getElementById('google').onclick=function(){
-            app.initGoogle();
-        };
-        document.getElementById('bing').onclick=function(){
-            app.initBing();
-        };
-        document.getElementById('leaflet').onclick=function(){
-            app.initLeaflet();
-        };
+//        document.getElementById('google').onclick=function(){
+//            app.initGoogle();
+//        };
+//        document.getElementById('bing').onclick=function(){
+//            app.initBing();
+//        };
+//        document.getElementById('leaflet').onclick=function(){
+//            app.initLeaflet();
+//        };
         app.initBing();
-    },
+    }
 
 };
