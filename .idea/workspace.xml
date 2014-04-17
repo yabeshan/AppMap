@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -128,7 +127,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="19" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.57876104" vertical-offset="1169" max-vertical-offset="1751">
+            <state line="26" column="10" selection-start="977" selection-end="1473" vertical-scroll-proportion="0.5185841" vertical-offset="149" max-vertical-offset="1751">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -490,7 +489,7 @@
       <workItem from="1397475710640" duration="2931000" />
       <workItem from="1397514455578" duration="3828000" />
       <workItem from="1397641873281" duration="15173000" />
-      <workItem from="1397751371265" duration="1530000" />
+      <workItem from="1397751371265" duration="1990000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397476249171</created>
@@ -584,11 +583,15 @@
       <created>1397752148234</created>
       <updated>1397752148234</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update&#10;">
+      <created>1397752926812</created>
+      <updated>1397752926812</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23462000" />
+    <option name="totallyTimeSpent" value="23922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
@@ -752,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="19" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.57876104" vertical-offset="1169" max-vertical-offset="1751">
+        <state line="26" column="10" selection-start="977" selection-end="1473" vertical-scroll-proportion="0.5185841" vertical-offset="149" max-vertical-offset="1751">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

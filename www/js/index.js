@@ -24,20 +24,20 @@ var app = {
     initGoogle: function() {
         document.getElementById("map_canvas").innerHTML = "Loading Google";
 
-//        var map = new google.maps.Map(document.getElementById("map_canvas"),
-//            {
-//                center: new google.maps.LatLng( app.posX, app.posY ),
-//                zoom: 8,
-//                mapTypeId: google.maps.MapTypeId.ROADMAP
-//            }
-//        );
-//
-//        var marker = new google.maps.Marker({
-//            position: new google.maps.LatLng( app.posX, app.posY ),
-//            map: map,
-//            title: "This is a marker!",
-//            animation: google.maps.Animation.DROP
-//        });
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            {
+                center: new google.maps.LatLng( app.posX, app.posY ),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+        );
+
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng( app.posX, app.posY ),
+            map: map,
+            title: "This is a marker!",
+            animation: google.maps.Animation.DROP
+        });
     },
 
     initBing: function() {
