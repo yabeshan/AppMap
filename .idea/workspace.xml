@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="377d87b2-1739-41d2-b232-9564e1a183cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AppMap.iws" />
@@ -112,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="10" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.256654" vertical-offset="749" max-vertical-offset="1275">
+            <state line="52" column="27" selection-start="2316" selection-end="2316" vertical-scroll-proportion="-9.769231" vertical-offset="630" max-vertical-offset="1258">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -124,11 +125,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="60" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1802">
-              <folding />
+            <state line="88" column="19" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.57876104" vertical-offset="1169" max-vertical-offset="1751">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,9 +156,9 @@
         <option value="$PROJECT_DIR$/www/map-google.html" />
         <option value="$PROJECT_DIR$/www/map-leaflet.html" />
         <option value="$PROJECT_DIR$/www/maps.html" />
-        <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
       </list>
     </option>
   </component>
@@ -487,7 +490,7 @@
       <workItem from="1397475710640" duration="2931000" />
       <workItem from="1397514455578" duration="3828000" />
       <workItem from="1397641873281" duration="15173000" />
-      <workItem from="1397751371265" duration="753000" />
+      <workItem from="1397751371265" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397476249171</created>
@@ -577,11 +580,15 @@
       <created>1397751533656</created>
       <updated>1397751533656</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update&#10;">
+      <created>1397752148234</created>
+      <updated>1397752148234</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22685000" />
+    <option name="totallyTimeSpent" value="23462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
@@ -685,7 +692,9 @@
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="60" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1802">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -731,19 +740,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="60" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="10" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.256654" vertical-offset="749" max-vertical-offset="1275">
+        <state line="52" column="27" selection-start="2316" selection-end="2316" vertical-scroll-proportion="-9.769231" vertical-offset="630" max-vertical-offset="1258">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="19" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.57876104" vertical-offset="1169" max-vertical-offset="1751">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

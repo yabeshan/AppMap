@@ -21,66 +21,58 @@ var app = {
     posX:46.069452,
     posY:-89.411373,
 
-    initialize: function() {
-        this.bindEvents();
-    },
-
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-        setTimeout(this.onDeviceReady, 1000);
-    },
-
     initGoogle: function() {
-        document.getElementById("map_canvas").innerHTML = "Loading";
-        var map = new google.maps.Map(document.getElementById("map_canvas"),
-            {
-                center: new google.maps.LatLng( app.posX, app.posY ),
-                zoom: 8,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-        );
+        document.getElementById("map_canvas").innerHTML = "Loading Google";
 
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng( app.posX, app.posY ),
-            map: map,
-            title: "This is a marker!",
-            animation: google.maps.Animation.DROP
-        });
+//        var map = new google.maps.Map(document.getElementById("map_canvas"),
+//            {
+//                center: new google.maps.LatLng( app.posX, app.posY ),
+//                zoom: 8,
+//                mapTypeId: google.maps.MapTypeId.ROADMAP
+//            }
+//        );
+//
+//        var marker = new google.maps.Marker({
+//            position: new google.maps.LatLng( app.posX, app.posY ),
+//            map: map,
+//            title: "This is a marker!",
+//            animation: google.maps.Animation.DROP
+//        });
     },
 
     initBing: function() {
-        document.getElementById("map_canvas").innerHTML = "Loading";
+        document.getElementById("map_canvas").innerHTML = "Loading Bing";
 
-        var mapOptions = {
-            credentials: "Au7tvmCVeBN3C1MvpCr-0yACFMH520qLiN7hinvKBKLCgom_kEwqZWWgO9dAtcUv",
-            mapTypeId: Microsoft.Maps.MapTypeId.road,
-            center: new Microsoft.Maps.Location( app.posX, app.posY ),
-            zoom: 11
-        };
-
-        var map = new Microsoft.Maps.Map(document.getElementById("map_canvas"), mapOptions);
-        var loc = new Microsoft.Maps.Location( app.posX, app.posY );
-
-        var pin = new Microsoft.Maps.Pushpin(loc, {text: '1'});
-        map.entities.push(pin);
+//        var mapOptions = {
+//            credentials: "Au7tvmCVeBN3C1MvpCr-0yACFMH520qLiN7hinvKBKLCgom_kEwqZWWgO9dAtcUv",
+//            mapTypeId: Microsoft.Maps.MapTypeId.road,
+//            center: new Microsoft.Maps.Location( app.posX, app.posY ),
+//            zoom: 11
+//        };
+//
+//        var map = new Microsoft.Maps.Map(document.getElementById("map_canvas"), mapOptions);
+//        var loc = new Microsoft.Maps.Location( app.posX, app.posY );
+//
+//        var pin = new Microsoft.Maps.Pushpin(loc, {text: '1'});
+//        map.entities.push(pin);
     },
 
     mapLeaflet:null,
     initLeaflet: function () {
-        document.getElementById("map_canvas").innerHTML = "Loading";
+        document.getElementById("map_canvas").innerHTML = "Loading Leaflet";
 
-        if (app.mapLeaflet == null) {
-            app.mapLeaflet = new L.Map('map_canvas');
-
-            var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-            var osmAttrib = 'Map data © OpenStreetMap contributors';
-            var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });
-
-            app.mapLeaflet.setView(new L.LatLng( app.posX, app.posY ), 11);
-            app.mapLeaflet.addLayer(osm);
-
-            L.marker([ app.posX, app.posY]).addTo(app.mapLeaflet);
-        }
+//        if (app.mapLeaflet == null) {
+//            app.mapLeaflet = new L.Map('map_canvas');
+//
+//            var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+//            var osmAttrib = 'Map data © OpenStreetMap contributors';
+//            var osm = new L.TileLayer(osmUrl, { attribution: osmAttrib });
+//
+//            app.mapLeaflet.setView(new L.LatLng( app.posX, app.posY ), 11);
+//            app.mapLeaflet.addLayer(osm);
+//
+//            L.marker([ app.posX, app.posY]).addTo(app.mapLeaflet);
+//        }
     },
 
 
@@ -94,7 +86,12 @@ var app = {
         document.getElementById('leaflet').onclick=function(){
             app.initLeaflet();
         };
-//        app.initGoogle();
+        alert("init");
+    },
+
+    initialize: function() {
+        document.addEventListener('deviceready', app.onDeviceReady, false);
+        setTimeout(app.onDeviceReady, 1000);
     }
 
 };
